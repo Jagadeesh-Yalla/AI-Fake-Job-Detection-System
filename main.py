@@ -9,6 +9,13 @@ import seaborn as sns
 
 # Load dataset
 df = pd.read_csv("fake_job_postings.csv")
+print("Dataset Shape:", df.shape)
+
+print("\nFirst 5 Rows:")
+print(df.head())
+
+print("\nClass Distribution:")
+print(df['fraudulent'].value_counts())
 
 # Keep required columns
 df = df[['description', 'fraudulent']]
@@ -88,5 +95,6 @@ with open("fake_job_model.pkl", "wb") as f:
 # Save vectorizer
 with open("tfidf_vectorizer.pkl", "wb") as f:
     pickle.dump(vectorizer, f)
+
 
 print("\nModel and vectorizer saved successfully!")
