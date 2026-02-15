@@ -31,6 +31,14 @@ This project aims to build a classification model that can automatically detect 
 - Improved fraud detection using balanced classification
 - Visualized results using confusion matrix
 
+## 📊 Dataset
+This project uses the *Real or Fake Job Posting Prediction* dataset from Kaggle.
+
+🔗 Dataset Link:  
+https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
+
+The dataset contains job postings labeled as real or fake and is used to train and evaluate the classification model.
+
 ## ▶ How to Run the Project
 
 1. Install dependencies:
@@ -39,9 +47,41 @@ This project aims to build a classification model that can automatically detect 
 2. Run the program:
    python main.py
 
+## 📷 Project Results
+
+### 📌 Dataset Preview (First 5 Rows)
+![Dataset Preview](first_5_rows.png)
+
+---
+
+### 📌 Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
+
+---
+
+### 📌 Classification Report & Model Accuracy
+![Classification Report](classification_report.png)
+
+---
+
+## 🎯 Key Features
+- Text preprocessing and cleaning
+- TF-IDF feature extraction
+- Machine Learning classification model
+- Model evaluation using standard metrics
+- Result visualization using confusion matrix
+
+---
+
 ## 🌍 Social Impact
 This system can help reduce online job fraud and protect job seekers from scams, making recruitment platforms safer.
 
 ---
+
+## 👨‍💻 Author
+Jagadeesh Yalla  
+B.Tech – Computer Science Engineering  
+Machine Learning & AI Enthusiast
+
 
 Developed as part of Microsoft Elevate – Azure Internship (AICTE)
